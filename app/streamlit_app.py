@@ -723,3 +723,23 @@ elif active_section == "Technical Details":
 
     st.subheader("Report Payload")
     st.json(report_payload)
+st.divider()
+
+st.markdown(
+    """
+    <div style="
+        text-align: center;
+        color: #8b8b8b;
+        font-size: 14px;
+        line-height: 1.8;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    ">
+        <strong>🧭 MeridianIQ v1.0</strong><br>
+        Hybrid Clause Extraction and LLM Orchestration for Contract Risk Intelligence <br><br>
+        Built by <strong>Siddhi Mane</strong><br><br>
+        <em>MeridianIQ provides AI-assisted contract review for informational purposes only and does not constitute legal advice.</em>
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
