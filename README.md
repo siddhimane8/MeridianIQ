@@ -315,18 +315,7 @@ MeridianIQ V1 establishes the core pipeline. These are the directions V2 will ex
 
 &nbsp;
 
----
 
-## Author
-
-**Noah** — Third-year B.E. student in Artificial Intelligence & Machine Learning
-
-Building a focused AI/ML portfolio targeting international opportunities in the European market.
-
-- 🐙 &nbsp; GitHub — [github.com/siddhimane8](https://github.com/siddhimane8)
-- 💼 &nbsp; LinkedIn — [linkedin.com/in/siddhimane8](https://linkedin.com/in/siddhimane8)
-
-&nbsp;
 
 ---
 
