@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Environment
+.env
+venv/
+.venv/
+
+# Large/raw data
+data/raw/
+data/CUAD_v1/
+*.zip
+
+# Generated files
+reports/*.md
+reports/*.json
+reports/*.txt
+
+# Secrets
+*.key
+secrets.toml
+
+# OS
+.DS_Store
+Thumbs.db

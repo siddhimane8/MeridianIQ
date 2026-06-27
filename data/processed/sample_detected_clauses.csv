@@ -1,0 +1,24 @@
+clause_name,clause_column,detected
+Non-Compete,non_compete,True
+Exclusivity,exclusivity,True
+No-Solicit Of Customers,no_solicit_of_customers,False
+No-Solicit Of Employees,no_solicit_of_employees,False
+Termination For Convenience,termination_for_convenience,False
+Change Of Control,change_of_control,True
+Anti-Assignment,anti_assignment,True
+Revenue/Profit Sharing,revenue_profit_sharing,True
+Price Restrictions,price_restrictions,False
+Minimum Commitment,minimum_commitment,True
+Volume Restriction,volume_restriction,False
+Ip Ownership Assignment,ip_ownership_assignment,True
+Joint Ip Ownership,joint_ip_ownership,False
+License Grant,license_grant,True
+Unlimited/All-You-Can-Eat-License,unlimited_all_you_can_eat_license,False
+Irrevocable Or Perpetual License,irrevocable_or_perpetual_license,False
+Post-Termination Services,post_termination_services,True
+Audit Rights,audit_rights,True
+Uncapped Liability,uncapped_liability,False
+Cap On Liability,cap_on_liability,True
+Liquidated Damages,liquidated_damages,True
+Warranty Duration,warranty_duration,False
+Insurance,insurance,True

@@ -1,0 +1,34 @@
+clause_name,context_column,answer_column,risk_domain,clause_role,severity,base_risk_weight,risk_action,presence_rate,is_mvp_clause,business_description
+Most Favored Nation,Most Favored Nation,Most Favored Nation-Answer,Financial Risk,Risk if present,Medium,10,,0.0549019607843137,False,
+Competitive Restriction Exception,Competitive Restriction Exception,Competitive Restriction Exception-Answer,Competition Risk,Contextual,Low,5,Show for review,0.1490196078431372,False,
+Non-Compete,Non-Compete,Non-Compete-Answer,Competition Risk,Risk if present,Critical,25,,0.2333333333333333,True,"Restricts a party from competing in certain markets, geographies, or sectors."
+Exclusivity,Exclusivity,Exclusivity-Answer,Competition Risk,Risk if Present,Critical,25,Flag when present,0.3529411764705882,True,Creates exclusive dealing obligations that may limit business flexibility.
+No-Solicit Of Customers,No-Solicit Of Customers,No-Solicit Of Customers-Answer,Competition Risk,Risk if Present,Medium,10,Flag when present,0.0666666666666666,True,Restricts solicitation of the counterparty’s customers or partners.
+No-Solicit Of Employees,No-Solicit Of Employees,No-Solicit Of Employees-Answer,Competition Risk,Risk if Present,Medium,10,Flag when present,0.1156862745098039,True,Restricts hiring or solicitation of the counterparty’s employees.
+Non-Disparagement,Non-Disparagement,Non-Disparagement-Answer,Competition Risk,Risk if Present,Low,5,Flag when present,0.0745098039215686,False,
+Termination For Convenience,Termination For Convenience,Termination For Convenience-Answer,Lifecycle Risk,Risk if Missing,High,18,,0.3588235294117647,True,Allows termination without cause after notice or waiting period.
+Rofr/Rofo/Rofn,Rofr/Rofo/Rofn,Rofr/Rofo/Rofn-Answer,Control Risk,Contextual,Medium,10,Show for review,0.1666666666666666,False,
+Change Of Control,Change Of Control,Change Of Control-Answer,Control Risk,Contextual,High,18,Show for review,0.2372549019607843,True,Creates rights or obligations triggered by ownership or control changes.
+Anti-Assignment,Anti-Assignment,Anti-Assignment-Answer,Control Risk,Contextual,Medium,10,Show for review,0.7333333333333333,True,Restricts transfer or assignment of contractual rights.
+Revenue/Profit Sharing,Revenue/Profit Sharing,Revenue/Profit Sharing-Answer,Financial Risk,Risk if present,High,18,,0.3254901960784314,True,Requires sharing revenue or profit with the counterparty.
+Price Restrictions,Price Restrictions,Price Restrictions-Answer,Financial Risk,Risk if present,Medium,10,,0.0294117647058823,True,Restricts the ability to change prices.
+Minimum Commitment,Minimum Commitment,Minimum Commitment-Answer,Financial Risk,Risk if present,High,18,,0.3235294117647059,True,"Requires minimum purchase, order, usage, or payment commitments."
+Volume Restriction,Volume Restriction,Volume Restriction-Answer,Financial Risk,Risk if present,Medium,10,,0.1607843137254902,True,Creates restrictions or penalties based on usage or volume thresholds.
+Ip Ownership Assignment,Ip Ownership Assignment,Ip Ownership Assignment-Answer,IP Risk,Contextual,Critical,25,Show for review,0.2431372549019607,True,Transfers ownership of created intellectual property to another party.
+Joint Ip Ownership,Joint Ip Ownership,Joint Ip Ownership-Answer,IP Risk,Contextual,Medium,10,Show for review,0.0901960784313725,True,Creates shared ownership of intellectual property.
+License Grant,License Grant,License Grant-Answer,IP Risk,Contextual,Low,5,Show for review,0.5,True,"Grants rights to use intellectual property, technology, content, or services."
+Non-Transferable License,Non-Transferable License,Non-Transferable License-Answer,IP Risk,Contextual,Low,5,Show for review,0.2705882352941176,False,
+Affiliate License-Licensor,Affiliate License-Licensor,Affiliate License-Licensor-Answer,IP Risk,Contextual,Low,5,Show for review,0.0450980392156862,False,
+Affiliate License-Licensee,Affiliate License-Licensee,Affiliate License-Licensee-Answer,IP Risk,Contextual,Low,5,Show for review,0.1156862745098039,False,
+Unlimited/All-You-Can-Eat-License,Unlimited/All-You-Can-Eat-License,Unlimited/All-You-Can-Eat-License-Answer,IP Risk,Risk if Present,High,18,Flag when present,0.0333333333333333,True,Grants broad or unlimited usage rights.
+Irrevocable Or Perpetual License,Irrevocable Or Perpetual License,Irrevocable Or Perpetual License-Answer,IP Risk,Risk if present,High,18,,0.1372549019607843,True,Creates license rights that may survive indefinitely or cannot be revoked.
+Source Code Escrow,Source Code Escrow,Source Code Escrow-Answer,IP Risk,Contextual,Medium,10,Show for review,0.0254901960784313,False,
+Post-Termination Services,Post-Termination Services,Post-Termination Services-Answer,Lifecycle Risk,Risk if Present,High,18,Flag when present,0.3568627450980392,True,Creates obligations that continue after contract termination.
+Audit Rights,Audit Rights,Audit Rights-Answer,Operational Risk,Contextual,Medium,10,Show for review,0.4196078431372549,True,"Allows one party to inspect records, books, systems, or compliance evidence."
+Uncapped Liability,Uncapped Liability,Uncapped Liability-Answer,Liability Risk,Risk if present,Critical,25,,0.2176470588235294,True,Indicates whether a party may face liability without a contractual cap.
+Cap On Liability,Cap On Liability,Cap On Liability-Answer,Liability Risk,Risk if Missing,Critical,25,,0.5392156862745098,True,Indicates whether the contract limits the maximum liability exposure.
+Liquidated Damages,Liquidated Damages,Liquidated Damages-Answer,Liability Risk,Risk if present,Medium,10,,0.1196078431372549,True,Defines preset damages or fees for breach or termination.
+Warranty Duration,Warranty Duration,Warranty Duration-Answer,Operational Risk,Contextual,Low,5,Show for review,0.1470588235294117,True,Specifies how long warranties remain valid.
+Insurance,Insurance,Insurance-Answer,Liability Risk,Risk if Missing,Critical,25,,0.3274509803921568,True,Indicates whether a party must maintain insurance coverage.
+Covenant Not To Sue,Covenant Not To Sue,Covenant Not To Sue-Answer,IP Risk,Contextual,Low,5,Show for review,0.196078431372549,False,
+Third Party Beneficiary,Third Party Beneficiary,Third Party Beneficiary-Answer,Control Risk,Contextual,Low,5,Show for review,0.0647058823529411,False,
