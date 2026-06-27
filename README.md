@@ -340,16 +340,5 @@ Building a focused AI/ML portfolio targeting international opportunities in the 
 
 ---
 
-
-## Author
-
-**Siddhi Mane** — Artificial Intelligence and Machine Learning Student
-
-GitHub: [github.com/siddhimane8](https://github.com/siddhimane8)
-
-&nbsp;
-
----
-
 *Built as part of an AI/ML portfolio focused on real-world document intelligence and production-aware system design.*
 
